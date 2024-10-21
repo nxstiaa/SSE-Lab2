@@ -2,7 +2,7 @@ name: Build
 on: [push]
 jobs:
   python-formatting:
-    rubs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
