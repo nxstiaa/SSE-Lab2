@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: ImPaaS-Deploy
-        uses: impaas/impaas-deploy@v3
+        uses: /impaas/impaas-deploy@v3
         with:
           app-name: nc624-sse-app
           deployment-token: ${{ secrets.IMPAAS_DEPLOY_TOKEN }}
